@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="47373345-e4e2-40d7-9c13-0e2a214118a2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/cloudformation-demo.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LAMP_Single_Instance_with_WaitCondition.template" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simpleweb_v1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simpleweb_v2.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/simpleweb.json" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="LAMP_Single_Instance_with_CreationPolicy.template" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LAMP_Single_Instance_with_CreationPolicy.template">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="670" column="42" lean-forward="false" selection-start-line="670" selection-start-column="32" selection-end-line="670" selection-end-column="42" />
+              <folding>
+                <element signature="n#!!block;n#Parameters#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Mappings#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#configSets#0;n#!!block;n#AWS::CloudFormation::Init#0;n#!!block;n#Metadata#0;n#!!block;n#WebServerInstance#0;n#!!block;n#Resources#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#01_set_mysql_root_password#0;n#!!block;n#commands#0;n#!!block;n#Configure#0;n#!!block;n#AWS::CloudFormation::Init#0;n#!!block;n#Metadata#0;n#!!block;n#WebServerInstance#0;n#!!block;n#Resources#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#02_create_database#0;n#!!block;n#commands#0;n#!!block;n#Configure#0;n#!!block;n#AWS::CloudFormation::Init#0;n#!!block;n#Metadata#0;n#!!block;n#WebServerInstance#0;n#!!block;n#Resources#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Properties#0;n#!!block;n#WebServerInstance#0;n#!!block;n#Resources#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#WebServerSecurityGroup#0;n#!!block;n#Resources#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Outputs#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LAMP_Single_Instance_with_WaitCondition.template" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LAMP_Single_Instance_with_WaitCondition.template">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="822" column="53" lean-forward="false" selection-start-line="822" selection-start-column="26" selection-end-line="822" selection-end-column="53" />
+              <folding>
+                <element signature="n#!!block;n#Parameters#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#InstanceType#0;n#!!block;n#Parameters#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Mappings#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#WebServerSecurityGroup#0;n#!!block;n#Resources#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Outputs#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AWS CloudFormation Template" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>KeyName</find>
+      <find>WebServerInstance</find>
+      <find>WaitConditionWebServerInstance</find>
+      <find>WaitHandleWebServerInstance</find>
+      <find>/opt/aws/bin</find>
+      <find>WaitHandle</find>
+      <find>/opt/aws/</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/simpleweb.json" />
+        <option value="$PROJECT_DIR$/simpleweb_v2.json" />
+        <option value="$PROJECT_DIR$/lamp-stack-template.template" />
+        <option value="$PROJECT_DIR$/LAMP_Single_Instance_with_WaitCondition.template" />
+        <option value="$PROJECT_DIR$/LAMP_Single_Instance_with_WaitCondition_v2.template" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1874" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloudformation-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloudformation-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultAwsCloudFormationTemplate" value="AWS CloudFormation Template" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Demo\cloudformation-demo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47373345-e4e2-40d7-9c13-0e2a214118a2" name="Default" comment="" />
+      <created>1497495566583</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1497495566583</updated>
+      <workItem from="1497495568100" duration="10812000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10812000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/simpleweb.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpleweb_v1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpleweb_v2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="98" column="21" lean-forward="true" selection-start-line="98" selection-start-column="21" selection-end-line="99" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!block;n#ImageId#0;n#!!block;n#Properties#0;n#!!block;n#Web1#0;n#!!block;n#Resources#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#InstanceType#0;n#!!block;n#Properties#0;n#!!block;n#Web1#0;n#!!block;n#Resources#0;n#!!top" expanded="false" />
+            <element signature="e#2231#2304#0" expanded="false" />
+            <element signature="n#!!block;n#KeyName#0;n#!!block;n#Properties#0;n#!!block;n#Web1#0;n#!!block;n#Resources#0;n#!!top" expanded="false" />
+            <element signature="e#2381#2472#0" expanded="false" />
+            <element signature="n#!!block;n#WebSecurityGroup#0;n#!!block;n#Resources#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lamp-stack-template.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="357" lean-forward="false" selection-start-line="2" selection-start-column="357" selection-end-line="2" selection-end-column="357" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LAMP_Single_Instance_with_WaitCondition_v2.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="839" column="61" lean-forward="false" selection-start-line="839" selection-start-column="61" selection-end-line="839" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LAMP_Single_Instance_with_WaitCondition.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="822" column="53" lean-forward="false" selection-start-line="822" selection-start-column="26" selection-end-line="822" selection-end-column="53" />
+          <folding>
+            <element signature="n#!!block;n#Parameters#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#InstanceType#0;n#!!block;n#Parameters#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Mappings#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#WebServerSecurityGroup#0;n#!!block;n#Resources#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Outputs#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LAMP_Single_Instance_with_CreationPolicy.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="670" column="42" lean-forward="false" selection-start-line="670" selection-start-column="32" selection-end-line="670" selection-end-column="42" />
+          <folding>
+            <element signature="n#!!block;n#Parameters#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Mappings#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#configSets#0;n#!!block;n#AWS::CloudFormation::Init#0;n#!!block;n#Metadata#0;n#!!block;n#WebServerInstance#0;n#!!block;n#Resources#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#01_set_mysql_root_password#0;n#!!block;n#commands#0;n#!!block;n#Configure#0;n#!!block;n#AWS::CloudFormation::Init#0;n#!!block;n#Metadata#0;n#!!block;n#WebServerInstance#0;n#!!block;n#Resources#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#02_create_database#0;n#!!block;n#commands#0;n#!!block;n#Configure#0;n#!!block;n#AWS::CloudFormation::Init#0;n#!!block;n#Metadata#0;n#!!block;n#WebServerInstance#0;n#!!block;n#Resources#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Properties#0;n#!!block;n#WebServerInstance#0;n#!!block;n#Resources#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#WebServerSecurityGroup#0;n#!!block;n#Resources#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Outputs#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
